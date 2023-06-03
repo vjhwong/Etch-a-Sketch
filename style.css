@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Ensure the grid is centered on the page */
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 550px;
+    margin-top: 10px;
+}
+
+.grid-box {
+    /* Set the width and height of each grid box based on the desired number of columns */
+    box-sizing: border-box;
+    /* Include borders in the width and height calculation */
+    border: 1px solid black;
+    background-color: white;
+    /* Set initial background color */
+}
